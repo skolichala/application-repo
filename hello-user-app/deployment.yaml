@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: hello-application
+        app: hello-app
     spec:
       containers:
       - name: hello-user
