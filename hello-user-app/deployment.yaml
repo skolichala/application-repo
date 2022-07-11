@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: hello-user
-        image: sravankolichala/hello-user
+        image: sravankolichala/hello-user-app@sha256:dc928a0eda76b21e415675b7e50fdc63360864092e7b3b8b20f0044515c95b15
         env:
         - name: GREETING_APPLICATION
           valueFrom:
