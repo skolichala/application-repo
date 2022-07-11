@@ -18,6 +18,12 @@ spec:
       containers:
       - name: hello-user
         image: sravankolichala/hello-user:v2
+        env:
+        - name: GREETED_USER
+          valueFrom:
+            configMapKeyRef:
+              name: env-config
+              key: user
         ports:
         - containerPort: 8080
         
