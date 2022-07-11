@@ -20,3 +20,4 @@ spec:
         image: sravankolichala/hello-user:v1
         ports:
         - containerPort: 8080
+
