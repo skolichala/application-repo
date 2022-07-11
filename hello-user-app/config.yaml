@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: ConfigMap
+metadata:
+  name: env-config
+  namespace: assignment
+data:
+  GREETED_USER: KCL
