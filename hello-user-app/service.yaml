@@ -12,3 +12,4 @@ spec:
     nodePort: 30303
   selector:
     app: hello-app
+  type: LoadBalancer
