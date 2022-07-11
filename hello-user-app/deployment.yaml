@@ -21,11 +21,13 @@ spec:
       - name: hello-user
         image: sravankolichala/hello-user:v2
         env:
-        - name: GREETED_USER
+        - name: GREETING_APPLICATION
           valueFrom:
             configMapKeyRef:
               name: env-config
-              key: user
+              key: application
+        - name: GREETED_USER
+          value: Taxy.io User
         ports:
         - containerPort: 8080
         
