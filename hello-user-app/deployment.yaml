@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: hello-user
-        image: sravankolichala/hello-user:v1
+        image: sravankolichala/hello-user:v2
         ports:
         - containerPort: 8080
-
+        
