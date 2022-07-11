@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-user-app
+  annotations:
+    configmap.reloader.stakater.com/reload: "env-config"
   namespace: assignment
   labels:
     app: hello-app
