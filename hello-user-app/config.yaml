@@ -4,4 +4,4 @@ metadata:
   name: env-config
   namespace: assignment
 data:
-  GREETED_USER: KCL
+  user: KCL
