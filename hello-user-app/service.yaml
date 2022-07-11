@@ -4,12 +4,10 @@ metadata:
   name: hello-user-service
   namespace: assignment
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - name: http
     port: 8080
     targetPort: 8080
-    nodePort: 30303
   selector:
     app: hello-app
-  type: LoadBalancer
