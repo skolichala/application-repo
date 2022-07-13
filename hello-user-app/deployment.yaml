@@ -27,7 +27,7 @@ spec:
               name: env-config
               key: application
         - name: GREETED_USER
-          value: Taxy.io User
+          value: dear Taxy.io User
         ports:
         - containerPort: 8080
         
